@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NotaFacil - Emissão de Notas Fiscais Simplificada</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        .bg-vivid-green { background-color: #00E676; }
+        .text-vivid-green { color: #00E676; }
+        .border-vivid-green { border-color: #00E676; }
+        
+        /* Estilo para as ondas do fundo inspiradas na imagem */
+        .hero-wave-bg {
+            background-color: #0046ad;
+            position: relative;
+            overflow: hidden;
+        }
+        .wave-shape {
+            position: absolute;
+            width: 150%;
+            height: 100%;
+            top: 0;
+            left: -25%;
+            background: linear-gradient(90deg, transparent 0%, rgba(0, 230, 118, 0.4) 50%, transparent 100%);
+            transform: rotate(-15deg) translateY(20%);
+            border-radius: 50%;
+            z-index: 1;
+        }
+        .wave-shape-2 {
+            position: absolute;
+            width: 200%;
+            height: 120%;
+            bottom: -50%;
+            left: -50%;
+            background: #00E676;
+            transform: rotate(-10deg);
+            border-radius: 40%;
+            z-index: 0;
+            opacity: 0.8;
+        }
+    </style>
+
+<link rel="stylesheet" href="/index.css">
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-C6LrvW-_.js"></script>
+</head>
+<body class="bg-white text-slate-900 overflow-x-hidden">
+    <div id="root"></div>
+</body>
+</html>
